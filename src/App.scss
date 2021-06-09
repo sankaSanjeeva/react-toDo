@@ -1,0 +1,23 @@
+.app {
+  color: #f0f8ff;
+  min-height: 100vh;
+
+  &__header {
+    height: 100px;
+
+    &__logo {
+      height: 50px;
+      animation: logo-spin infinite 20s linear;
+      pointer-events: none;
+    }
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
